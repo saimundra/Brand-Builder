@@ -25,7 +25,7 @@ class Dog(Animal):
         print(f"{self.name} fetched a bone")
 
 class Cat(Animal):
-    def __init__(self, breed, name,isHerbivore):
+    def __init__(self, breed, name,isHerbivore): #initialize attributes breed name and is herbivore from the class animal
         super().__init__(name,isHerbivore)
         self.breed = breed
 

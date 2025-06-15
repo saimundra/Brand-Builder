@@ -16,7 +16,7 @@ class vehicle:
    
 class bike(vehicle):
     def __init__(self,engine,milage ,model):
-        super().__init__(engine ,milage)
+        super().__init__(engine ,milage) #initialize engine and milage from parent class vehicle
         self.model = model
     def what_model(self):
         print(f"the model of the bike is {self.model}")
