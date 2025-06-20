@@ -3,4 +3,4 @@ try:
     print(x)
  
 except NameError:
-    print("there is an error")
+    print("the value of x is not defined")

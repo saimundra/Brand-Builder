@@ -6,7 +6,7 @@ try:
 except:
     print("there is an error on variable") #prints error
 finally:
-    print("there is ana absolute error")# prints error
+    print("there is an absolute error")# prints error
 
 try:
     print("hello world!!") #no error
