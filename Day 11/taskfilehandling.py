@@ -5,25 +5,23 @@
 # if you can use OOP
 
 def readfile(filename):
-    with open("taskfile,txt","r") as f:
+    with open("taskfile.txt","r") as f:
         content = f.read()
         print(content)
 
 def writefile(filename,name, age, address):
     with open("taskfile.txt","a")as f:
         f.write(f"{name},{age},{address}")
+
 while True:
-    iscontinue = ("Do you want to add your details: (w/r/c)")
+    iscontinue = input("Do you want to add your details: (w/r/c)")
     if(iscontinue == "w"):
-        name = str(input("enter your name: "))
+        name = str(input("enter your name:/n "))
         age = int(input("enter your age: "))
         address = str(input("enter your address: "))
         writefile("taskfile.txt",name,age,address)
-
     elif(iscontinue == "r"):
-            readfile("taskfile.txt")
-
-    
+        readfile("taskfile.txt")
     else:
         exit()
 

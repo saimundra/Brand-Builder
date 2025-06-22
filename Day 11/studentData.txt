@@ -1,5 +1,4 @@
-
-saimundra 30, pokhara, anil
+saimundra, 30, pokhara
 nayen, 30, pokhara
 anil, 30, rolpa
 andey, 20, rukum

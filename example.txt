@@ -1,0 +1,3 @@
+saimundra,20,pokhara
+saimundra,20,syangja
+aayush,20,kathmandu

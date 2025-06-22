@@ -1,7 +1,7 @@
 
 #To read data
 
-with open('studentData.txt','r') as f:
+with open("studentData.txt",'r') as f:
     while True:
         content=f.readline()
         if(content==''):
